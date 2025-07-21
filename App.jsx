@@ -26,7 +26,7 @@ const App = () => {
   // and not expose it directly in client-side code.
   // For demonstration, you can use a placeholder or sign up for a free key at exchangerate-api.com
   // Please replace 'YOUR_API_KEY' with your actual API key.
-  const API_KEY = '90dec58af730ba168f3c60cd'; // Replace with your actual API key from exchangerate-api.com
+  const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key from exchangerate-api.com
   const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest/USD`; // Fetching rates with USD as base
 
   // useEffect hook to fetch exchange rates when the component mounts
